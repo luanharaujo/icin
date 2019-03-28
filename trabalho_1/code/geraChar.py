@@ -269,10 +269,10 @@ def validacao(Pn,net):
     # calculate number or incorrect characters
     bincor = 0; 
     for i in range(16): 
-        if idx[i] <> i: bincor +=1;
+        if idx[i] != i: bincor +=1;
             
     return (bincor,idx)   
 
-A, B = geraChar()
-showChar(gchar_ruido(A,50))
+# A, B = geraChar()
+# showChar(gchar_ruido(A,50))
 
